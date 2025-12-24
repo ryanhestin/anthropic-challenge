@@ -2,6 +2,8 @@ There was recently a viral video of an interview done at Anthropic recently. The
 
 > Convert a collection of call stack samples into a chronologically sequenced list of events which represent the lifecycles of the sampled function calls..
 
+I did not use any AI agents producing this. I converted the C++ starter code from the video in some regular Python classes and implemented the trace generation from there.
+
 I watched the video through the interviewer explaining the task (I was vaguely familiar with call stack profilers, but have never written one). I paused the video prior to anything being coded or solved. It was a bit of an odd interview, but nonetheless an interesting challenge.
 
 I did two iterations of the implemention. The first was really bad and utilized sliced and dicing the lists in various ways, incorrectly listed the 'end' events, etc. I then came to realize you can simply care about the difference between the state of the tracked stack and the current observed sample.
