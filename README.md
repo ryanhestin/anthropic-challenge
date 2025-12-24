@@ -1,4 +1,4 @@
-There was a viral video of an interview done at Anthropic recently. The challege:
+There was a viral video of an interview done at Anthropic recently. The challenge:
 
 > Convert a collection of call stack samples into a chronologically sequenced list of events which represent the lifecycles of the sampled function calls..
 
